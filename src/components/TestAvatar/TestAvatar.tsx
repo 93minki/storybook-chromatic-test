@@ -3,7 +3,7 @@ interface AvatarProps {
 }
 
 const TestAvatar = ({ text }: AvatarProps) => {
-  return <div style={{ backgroundColor: "blue" }}>{text}</div>;
+  return <div style={{ backgroundColor: "green" }}>{text}</div>;
 };
 
 export default TestAvatar;
